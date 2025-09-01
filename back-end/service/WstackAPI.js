@@ -2,7 +2,7 @@
 // Funciona em browser ou Node 18+ (fetch nativo)
 
 async function getWeatherFlorianopolis({
-  accessKey = "4fe555082902ea92dc943bd2d1694746",
+  accessKey = "cdd258b2f5cc88a7a3b571ec1ac85eb1",
   retries = 3,
   backoffMs = 1000,
 } = {}) {
