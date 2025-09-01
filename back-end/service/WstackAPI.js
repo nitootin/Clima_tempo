@@ -1,5 +1,7 @@
 // getWeatherFlorianopolis.js
 // Funciona em browser ou Node 18+ (fetch nativo)
+export default getWeatherFlorianopolis;
+
 
 async function getWeatherFlorianopolis({
   accessKey = "4fe555082902ea92dc943bd2d1694746",
