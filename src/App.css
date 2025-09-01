@@ -1,0 +1,27 @@
+/* App.css */
+.App {
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #67B26F, #4ca2cd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
