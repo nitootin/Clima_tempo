@@ -1,7 +1,7 @@
 // src/App.jsx
 import { useEffect, useMemo, useState } from "react";
 // caminho a partir de src/App.jsx
-import getWeatherFlorianopolis from "../back-end/service/WstackAPI.js";
+import getWeatherFlorianopolis from "../back-end/service/WeatherAPI.js";
 
 export default function App() {
   const [data, setData] = useState(null);
